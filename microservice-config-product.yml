@@ -6,9 +6,9 @@ spring:
 server:
   port: 8001
 mybatis:
-  config-location: classpath: mybatis/mybatis.cfg.xml
-  type-aliases-package: com.mengxuegu.spring.eneities
-  mapper-locations: classpath: mybatis/mapper/**/*.xml
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  type-aliases-package: com.mengxuegu.springcloud.eneities
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
   profiles: dev
   application:
